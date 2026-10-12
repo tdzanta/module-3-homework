@@ -1,0 +1,128 @@
+{
+  "q1": {
+    "feature": "month_wom_October_w4",
+    "absolute_correlation": 0.024584167561588332,
+    "rounded": 0.025
+  },
+  "manual_scores": {
+    "pred0_manual_cci": {
+      "tp": 520,
+      "fp": 401,
+      "positive_predictions": 921,
+      "precision": 0.5646036916395223
+    },
+    "pred1_manual_prev_g1": {
+      "tp": 11086,
+      "fp": 8072,
+      "positive_predictions": 19158,
+      "precision": 0.5786616557051885
+    },
+    "pred2_manual_prev_g1_and_snp": {
+      "tp": 8728,
+      "fp": 6516,
+      "positive_predictions": 15244,
+      "precision": 0.5725531356599318
+    },
+    "pred3_manual_dgs10_5": {
+      "tp": 9351,
+      "fp": 6559,
+      "positive_predictions": 15910,
+      "precision": 0.5877435575109994
+    },
+    "pred4_manual_dgs10_fedfunds": {
+      "tp": 8001,
+      "fp": 7920,
+      "positive_predictions": 15921,
+      "precision": 0.5025438100621821
+    }
+  },
+  "q2": 0.588,
+  "q3": 1243,
+  "q4": 4,
+  "depth_scores": [
+    {
+      "depth": 1,
+      "precision": 0.5700931761300244
+    },
+    {
+      "depth": 2,
+      "precision": 0.6225340136054421
+    },
+    {
+      "depth": 3,
+      "precision": 0.5719694313959195
+    },
+    {
+      "depth": 4,
+      "precision": 0.6291747790924068
+    },
+    {
+      "depth": 5,
+      "precision": 0.5999732870308535
+    },
+    {
+      "depth": 6,
+      "precision": 0.6062052505966588
+    },
+    {
+      "depth": 7,
+      "precision": 0.6210715354684226
+    },
+    {
+      "depth": 8,
+      "precision": 0.6217853347502657
+    },
+    {
+      "depth": 9,
+      "precision": 0.6111786148238153
+    },
+    {
+      "depth": 10,
+      "precision": 0.5912146499768196
+    },
+    {
+      "depth": 11,
+      "precision": 0.6027542372881356
+    },
+    {
+      "depth": 12,
+      "precision": 0.5819441183376379
+    }
+  ],
+  "model_scores": {
+    "pred5_clf_10": {
+      "tp": 5101,
+      "fp": 3527,
+      "positive_predictions": 8628,
+      "precision": 0.5912146499768196
+    },
+    "pred6_clf_best": {
+      "tp": 4201,
+      "fp": 2476,
+      "positive_predictions": 6677,
+      "precision": 0.6291747790924068
+    }
+  },
+  "rows": 202292,
+  "dummy_count": 115,
+  "numerical_count": 184,
+  "split_counts": {
+    "train": 136842,
+    "test": 33163,
+    "validation": 32287
+  },
+  "split_dates": {
+    "test": {
+      "min": "2022-09-16 00:00:00",
+      "max": "2026-09-18 00:00:00"
+    },
+    "train": {
+      "min": "2000-01-03 00:00:00",
+      "max": "2018-09-13 00:00:00"
+    },
+    "validation": {
+      "min": "2018-09-14 00:00:00",
+      "max": "2022-09-15 00:00:00"
+    }
+  }
+}
